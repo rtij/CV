@@ -1,0 +1,70 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #20c997;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.profile-section, .contacts-section, .skills-section, .languages-section, .experience-card, .education-section, .interests-section {
+    background: rgba(255, 255, 255, 0.575);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.493);
+}
+
+.profile-section p, .contacts-section p, .skills-section p, .languages-section p, .experience-card p, .education-section p, .interests-section p {
+    margin: 0;
+}
+
+.contacts-section i, .skills-section i, .languages-section i {
+    margin-right: 10px;
+    color: #20c997; /* Couleur verte pour les icônes */
+}
+
+.rounded-circle {
+    width: 150px;
+    height: 150px;
+}
+
+.container {
+    max-width: 960px;
+}
+
+p a {
+    color: #20c997;
+    text-decoration: none;
+}
+
+.header-section img {
+    width: 150px;
+    height: 150px;
+}
+
+.header-section h1, .header-section h2 {
+    margin: 0;
+}
+
+.experience-card {
+    margin-bottom: 20px;
+}
+
+.contacts-section i {
+    color: #20c997;
+}
