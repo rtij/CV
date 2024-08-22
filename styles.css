@@ -7,26 +7,29 @@ body {
 h1 {
     font-size: 2em;
     color: #333;
+    margin-bottom: 0.5em; /* Uniformise les marges */
 }
 
 h2 {
     font-size: 1.5em;
-    color: #20c997;
+    color: #1e8e8f; /* Augmente le contraste avec une teinte légèrement plus sombre */
+    margin-bottom: 0.75em; /* Uniformise les marges */
 }
 
 h3 {
     font-size: 1.2em;
     color: #333;
+    margin-bottom: 0.5em; /* Uniformise les marges */
 }
 
 .profile-section, .contacts-section, .skills-section, .languages-section, .experience-card, .education-section, .interests-section {
-    background: rgba(255, 255, 255, 0.575);
+    background: rgba(255, 255, 255, 0.9); /* Réduit l'opacité pour une meilleure lisibilité */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    padding: 20px;
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.493);
+    margin-bottom: 1.5rem; /* Uniformise les marges */
+    padding: 1.5rem; /* Uniformise les espacements */
+    backdrop-filter: blur(8px); /* Réduit le flou pour moins de distraction */
+    border: 1px solid rgba(255, 255, 255, 0.7); /* Réduit l'opacité de la bordure */
 }
 
 .profile-section p, .contacts-section p, .skills-section p, .languages-section p, .experience-card p, .education-section p, .interests-section p {
@@ -35,7 +38,7 @@ h3 {
 
 .contacts-section i, .skills-section i, .languages-section i {
     margin-right: 10px;
-    color: #20c997; /* Couleur verte pour les icônes */
+    color: #1e8e8f; /* Augmente le contraste pour les icônes */
 }
 
 .rounded-circle {
@@ -48,7 +51,7 @@ h3 {
 }
 
 p a {
-    color: #20c997;
+    color: #1e8e8f; /* Augmente le contraste avec une teinte légèrement plus sombre */
     text-decoration: none;
 }
 
@@ -62,29 +65,29 @@ p a {
 }
 
 .experience-card {
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem; /* Uniformise les marges */
 }
 
 .contacts-section i {
-    color: #20c997;
+    color: #1e8e8f; /* Augmente le contraste pour les icônes */
 }
 
 .technologies-used {
-    margin-top: 10px;
+    margin-top: 1rem; /* Uniformise les marges */
 }
 
 .tech-btn {
     display: inline-block;
     background-color: #e0f7fa;
-    color: #00796b;
+    color: #004d40; /* Augmente le contraste pour le texte */
     border-radius: 50px;
-    padding: 5px 10px;
-    margin: 5px;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
     font-size: 0.85rem;
     text-align: center;
 }
 
 .tech-btn:hover {
-    background-color: #00796b;
+    background-color: #004d40; /* Augmente le contraste pour le survol */
     color: #ffffff;
 }
