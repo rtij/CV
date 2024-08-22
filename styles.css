@@ -96,4 +96,5 @@ p a {
 .tech-btn:hover {
     background-color: #004d40; /* Augmente le contraste pour le survol */
     color: #ffffff;
+    cursor: pointer;
 }
