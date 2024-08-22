@@ -68,3 +68,23 @@ p a {
 .contacts-section i {
     color: #20c997;
 }
+
+.technologies-used {
+    margin-top: 10px;
+}
+
+.tech-btn {
+    display: inline-block;
+    background-color: #e0f7fa;
+    color: #00796b;
+    border-radius: 50px;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+.tech-btn:hover {
+    background-color: #00796b;
+    color: #ffffff;
+}
