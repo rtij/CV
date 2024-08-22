@@ -68,6 +68,12 @@ p a {
     margin-bottom: 1.5rem; /* Uniformise les marges */
 }
 
+.experience-card p.date {
+    font-style: italic; /* Utiliser l'italique pour distinguer les dates */
+    color: #666; /* Une couleur plus douce pour moins d'impact visuel */
+    margin-bottom: 1rem; /* Espacement uniforme */
+}
+
 .contacts-section i {
     color: #1e8e8f; /* Augmente le contraste pour les icônes */
 }
