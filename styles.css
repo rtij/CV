@@ -1,27 +1,77 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f0f8ff;
+    background: linear-gradient(to right, #f0f8ff, #e0f7fa);
     color: #333;
+}
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
     font-size: 2em;
     color: #333;
     margin-bottom: 0.5em; /* Uniformise les marges */
+    background: linear-gradient(to right, #004d40, #1e8e8f);
+    -webkit-background-clip: text;
+    color: transparent;  
+    letter-spacing: 2px;
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 1.5em; 
+    letter-spacing: 1.5px;
     color: #1e8e8f; /* Augmente le contraste avec une teinte légèrement plus sombre */
     margin-bottom: 0.75em; /* Uniformise les marges */
 }
 
 h3 {
     font-size: 1.2em;
-    color: #333;
+    color: #333; 
+    letter-spacing: 1px;
     margin-bottom: 0.5em; /* Uniformise les marges */
 }
 
+/*  */
+.btn-primary {
+    background: linear-gradient(to right, #1e8e8f, #004d40);
+    border: none;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, #004d40, #1e8e8f);
+}
+
+/*  */
+/* Application du style des cadres */
+.skills-section, .contacts-section, .project-section {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.container {
+    max-width: 960px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #1e8e8f; 
+    transition: color 0.3s ease;
+}
+
+
+/*  */
 .profile-section, .contacts-section, .skills-section, .languages-section, .experience-card, .education-section, .interests-section {
     background: rgba(255, 255, 255, 0.9); /* Réduit l'opacité pour une meilleure lisibilité */
     border-radius: 10px;
