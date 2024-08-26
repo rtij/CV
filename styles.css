@@ -133,18 +133,25 @@ p a {
 }
 
 .tech-btn {
-    display: inline-block;
+    display: inline-flex; /* Change to inline-flex for better alignment with icons */
+    align-items: center; /* Center the icon and text vertically */
+    justify-content: center;
     background-color: #e0f7fa;
-    color: #004d40; /* Augmente le contraste pour le texte */
+    color: #004d40; /* Increase contrast for text */
     border-radius: 50px;
     padding: 0.5rem 1rem;
     margin: 0.5rem;
     font-size: 0.85rem;
     text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.tech-btn i {
+    margin-right: 0.5rem; /* Add space between the icon and text */
 }
 
 .tech-btn:hover {
-    background-color: #004d40; /* Augmente le contraste pour le survol */
+    background-color: #374151; /* Change to a vibrant orange on hover */
     color: #ffffff;
     cursor: pointer;
 }
